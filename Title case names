@@ -1,0 +1,10 @@
+name = input("What's your first name? ")
+last = input("What's your last name? ")
+
+
+def format_name(f_name, l_name):
+  title_name = f_name.title()
+  title_last = l_name.title()
+  return(f"Your name in titlecase is {title_name} {title_last}!")
+
+print(format_name(f_name=name, l_name=last))
