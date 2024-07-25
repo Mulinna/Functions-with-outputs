@@ -35,10 +35,10 @@ def calculation():
     
     print(f"{num1} {operation_symbol} {num2} = {answer}")
     
-    if input(f"Type 'y' if you wish to continue calculating with {answer}, or type 'n'     to exit ").lower() == "y":
+    if input(f"Type 'y' if you wish to continue calculating with {answer}, or type 'n'  to exit ").lower() == "y":
       num1 = answer
     else:
-      should_continue = False3
+      should_continue = False
       calculation()
 
 calculation()
